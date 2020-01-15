@@ -1,0 +1,12 @@
+
+#slide{
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  background: url("../images/product_01.jpeg");
+}
+
+#fout{
+  color: red;
+  font-weight: bold;
+}
