@@ -13,3 +13,7 @@ form {
 
 p.green {border: 1px solid green;}
 p.red {border: 1px solid red;}
+
+#bevestiging {
+    padding: 20px;
+}
