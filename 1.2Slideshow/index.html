@@ -5,21 +5,23 @@
     <title></title>
     <link rel="stylesheet" href="css/style.css">
 
+      <!-- scripts -->
+      <script src="js/index.js"></script>
+
   </head>
-  <body>
+  <body onload="Initialisatie()">
 
     <button type="button" name="button" onclick="volgendeFoto()">Volgende</button>
-    <input type="number" name="" value="" id="gekozen">
+    <input type="number" name="" value="" id="gekozen" onkeydown="alert('hoi');return false;">
     <button type="submit" name="button" onclick="kiesFoto()">Ga!</button>
 
     <!-- fotokader -->
-    <div id="slide" onclick="volgendeFoto()"></div>
+    <div id="slide" onclick="volgendeFoto()" onmouseover="alert('heyhey')"></div>
 
     <!-- errors -->
     <p id="fout"></p>
 
-    <!-- scripts -->
-    <script src="js/index.js"></script>
+
 
   </body>
 </html>

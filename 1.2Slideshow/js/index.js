@@ -1,10 +1,16 @@
 images=["product_01.jpeg","product_02.jpeg","product_03.jpeg","product_04.jpeg","product_05.jpeg"];
 image = 0;
-var slide = document.getElementById("slide");
-var fout = document.getElementById("fout");
-var gekozen = document.getElementById("gekozen");
+var slide ;
+var fout ;
+var gekozen ;
 
 PlaatsFoto();
+
+function Initialisatie() {
+    slide = document.getElementById("slide");
+    fout = document.getElementById("fout");
+    gekozen = document.getElementById("gekozen");
+}
 
 function PlaatsFoto()
 {
