@@ -1,3 +1,10 @@
 p#bericht {
     border: 1px solid green;
 }
+
+
+div#speelveld {
+    width: 500px;
+    height: 300px;
+    background: rgba(210, 253, 11, 0.34);
+}

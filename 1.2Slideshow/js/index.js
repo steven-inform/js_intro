@@ -27,7 +27,7 @@ function volgendeFoto(){
   if ( image < 4 ) image++; //bij foto 4 weer naar 0 gaan
   else image=0;
 
-    RefreshFoto()
+    RefreshFoto();
 }
 
 function kiesFoto(){
